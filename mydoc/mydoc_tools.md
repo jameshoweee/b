@@ -8,6 +8,7 @@ sidebar: mydoc_sidebar
 permalink: /mydoc_tools/
 ---
 
+
 ## GIT
 
 ### create a new repository on the command line
@@ -53,7 +54,7 @@ permalink: /mydoc_tools/
     Ctrl+Com+P  项目间切换
     Com+b       打开文件
 
-### phpstorm
+## phpstorm
 
     ⌥⇧⌘L
 
