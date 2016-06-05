@@ -59,23 +59,3 @@ entries:
     - title: Support
       url: /mydoc_support/
       output: web, pdf
-
-  - title: Navigation
-    output: web, pdf
-
-    folderitems:
-    - title: Sidebar navigation
-      url: /mydoc_sidebar_navigation/
-      output: web, pdf
-
-    - title: YAML tutorial in the context of Jekyll
-      url: /mydoc_yaml_tutorial/
-      output: web, pdf
-
-    - title: Tags
-      url: /mydoc_tags/
-      output: web, pdf
-
-    - title: Series
-      url: /mydoc_series/
-      output: web, pdf
