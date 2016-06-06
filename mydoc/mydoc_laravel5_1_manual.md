@@ -87,3 +87,7 @@ github中搜 dingo
 ### laravel-api-boilerplate-jwt
 
     artisan api:route
+    
+### java jwt-token
+
+    [java jwt token atlassian](https://developer.atlassian.com/static/connect/docs/latest/concepts/understanding-jwt.html)
