@@ -76,3 +76,10 @@ github中搜 dingo
 
 [稍微深入](https://laravist.com/series/dive-a-little-deep-into-laravel-5)
 
+#### tool_jwt
+
+[tool_jwt_](http://kjur.github.io/jsjws/tool_jwt.html)
+
+## 例子
+
+http://l.njbccw.cn/tasks
