@@ -82,4 +82,4 @@ github中搜 dingo
 
 ## 例子
 
-(l.njbccw.cn)[http://l.njbccw.cn/tasks]
+[l.njbccw.cn](http://l.njbccw.cn/tasks)
