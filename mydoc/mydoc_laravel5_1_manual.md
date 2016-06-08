@@ -91,3 +91,5 @@ github中搜 dingo
 ### java jwt-token
 
    [java jwt token atlassian](https://developer.atlassian.com/static/connect/docs/latest/concepts/understanding-jwt.html)
+   
+[sonatype nexus](https://books.sonatype.com/nexus-book/reference/running.html)   
