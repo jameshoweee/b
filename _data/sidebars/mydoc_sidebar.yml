@@ -36,11 +36,7 @@ entries:
       url: /mydoc_laravel5_1_manual/
       output: web, pdf
 
-    - title: jwt
-      url: /mydoc_jwt/
-      output: web, pdf
-
-    - title: 5.0 Release notes
+    - title: VPS
       url: /mydoc_release_notes_50/
       output: web, pdf
 
@@ -48,7 +44,7 @@ entries:
       url: /samplepage/
       output: web, pdf
 
-    - title: Introduction
+    - title: jwt
       url: /mydoc_introduction/
       output: web, pdf
 
