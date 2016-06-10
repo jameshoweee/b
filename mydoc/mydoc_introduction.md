@@ -12,7 +12,7 @@ permalink: /mydoc_introduction/
 
 [json-web-token-in-action-with-jax-rs](https://abhirockzz.wordpress.com/2016/03/18/json-web-token-in-action-with-jax-rs/)
 
-什么是jax-rs
+什么是jax rs
 
 ## Overview
 

@@ -50,9 +50,11 @@ permalink: /mydoc_tools/
 
 ### Atom
 
+[atom-editor-cheat-sheet](http://sweetme.at/2014/03/10/atom-editor-cheat-sheet/)
+
     Com + \     隐藏左侧树
     Ctrl+Com+P  项目间切换
-    Com+b       打开文件
+    Com+b       打开已打开的文件
 
 ## phpstorm
 
@@ -61,7 +63,7 @@ permalink: /mydoc_tools/
 home WIFI
 
   asdfqwerzxcv
-  
+
 ## cooltext
 
 [图片生成](https://cooltext.com/)
