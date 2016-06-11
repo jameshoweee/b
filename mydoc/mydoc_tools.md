@@ -52,6 +52,8 @@ permalink: /mydoc_tools/
 
 [atom-editor-cheat-sheet](http://sweetme.at/2014/03/10/atom-editor-cheat-sheet/)
 
+[2016-4-6 short-cut](https://gist.github.com/chrissimpkins/5bf5686bae86b8129bee)
+
     Com + \     隐藏左侧树
     Ctrl+Com+P  项目间切换
     Com+b       打开已打开的文件
