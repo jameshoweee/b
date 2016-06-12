@@ -56,6 +56,6 @@ entries:
       url: /mydoc_about/
       output: web, pdf
 
-    - title: Support
+    - title: web github developer
       url: /mydoc_support/
       output: web, pdf
