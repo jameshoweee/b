@@ -35,7 +35,19 @@ permalink: /mydoc_tools/
 	git commit -m "Ignoring and deleting config files." ;
 	git push origin;
 
-### sublime3
+remove src/g4server.properties completely from the git repository and then ignore it completely:
+
+	git rm --cached src/g4server.properties
+and add it to .gitignore.
+
+keep src/g4server.properties in the git repository but ignore future changes to this file
+
+	git update-index --assume-unchanged src/g4server.properties
+If you wanna start tracking changes again run the following command:
+
+	git update-index --no-assume-unchanged src/g4server.properties
+
+## sublime3
 
 #### OSX El Capitan with Sublime Text 3
 
@@ -48,7 +60,7 @@ permalink: /mydoc_tools/
   it works fine!
 
 
-### Atom
+## Atom
 
 [atom-editor-cheat-sheet](http://sweetme.at/2014/03/10/atom-editor-cheat-sheet/)
 
