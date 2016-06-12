@@ -28,4 +28,6 @@ github Developer Applications
 
 设置task52.dev Client Secret
 
-[](task52.dev)
+[task52 dev](task52.dev)
+
+[java jwt demo](https://github.com/bigmeow/JWT.git)
