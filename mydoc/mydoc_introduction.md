@@ -21,3 +21,11 @@ permalink: /mydoc_introduction/
 tenant:
 
 abrupt-command1
+
+## 本地开发环境
+
+github Developer Applications
+
+设置task52.dev Client Secret
+
+[](task52.dev)
