@@ -52,7 +52,7 @@ entries:
       url: /mydoc_supported_features/
       output: web, pdf
 
-    - title: About the theme author
+    - title: task52-github
       url: /mydoc_about/
       output: web, pdf
 
