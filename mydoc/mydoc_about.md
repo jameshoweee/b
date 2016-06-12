@@ -44,3 +44,7 @@ permalink: /mydoc_about/
 ### 5、至此可以用自己github账号登录
 
 所有实现的的代码在这 [study_quickstart-intermediate-github-login](https://github.com/jnuc093/study_quickstart-intermediate/)
+
+### 其他参考资料
+
+[Matt Stauffer ](https://mattstauffer.co/blog/using-github-authentication-for-login-with-laravel-socialite)
