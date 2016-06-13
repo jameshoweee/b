@@ -45,9 +45,9 @@ permalink: /mydoc_about/
 
 所有实现的的代码在这 [study_quickstart-intermediate-github-login](https://github.com/jnuc093/study_quickstart-intermediate/)
 
-### 6 添加DingoAPI JWT
+### 6、添加DingoAPI JWT
 
-RouteServiceProvider中添加 Http/api_routes.php文件并定义api
+RouteServiceProvider中添加 Http/api_routes.php文件并定义api后查看
 
     artisan api:route
 
