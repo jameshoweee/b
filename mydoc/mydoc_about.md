@@ -45,6 +45,13 @@ permalink: /mydoc_about/
 
 所有实现的的代码在这 [study_quickstart-intermediate-github-login](https://github.com/jnuc093/study_quickstart-intermediate/)
 
+### 6 添加DingoAPI JWT
+
+RouteServiceProvider中添加 Http/api_routes.php文件并定义api
+
+    artisan api:route
+
 ### 其他参考资料
 
 [Matt Stauffer ](https://mattstauffer.co/blog/using-github-authentication-for-login-with-laravel-socialite)
+
