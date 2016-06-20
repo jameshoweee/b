@@ -44,7 +44,7 @@ and add it to .gitignore.
 keep src/g4server.properties in the git repository but ignore future changes to this file
 
 	git update-index --assume-unchanged src/g4server.properties
-	
+
 If you wanna start tracking changes again run the following command:
 
 	git update-index --no-assume-unchanged src/g4server.properties
@@ -84,7 +84,17 @@ home WIFI
 
 [图片生成](https://cooltext.com/)
 
+[ww4](http://ww4.sinaimg.cn/large/8be70f0bjw1f0efft0cnjj21kw0rnh5w.jpg)
+
 ## vps
 [王掌柜](http://since1989.org/contact)
 
 [cnvultr](http://www.cnvultr.com/)
+
+## java多线程
+
+[java-multi](http://www.runoob.com/java/java-multithreading.html)
+
+	Arrays.asList();
+	Collections.rotate();
+	Enumeration();
