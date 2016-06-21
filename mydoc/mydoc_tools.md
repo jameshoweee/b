@@ -104,3 +104,5 @@ home WIFI
 [huanyong](http://my.oschina.net/huangyong/blog/361751)
 
 [zookeeper](http://www.tutorialspoint.com/zookeeper/zookeeper_fundamentals.htm)
+
+	$ bin/zkServer.sh start
