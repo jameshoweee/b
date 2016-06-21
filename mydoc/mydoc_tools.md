@@ -84,7 +84,7 @@ home WIFI
 
 [图片生成](https://cooltext.com/)
 
-[ww4](http://ww4.sinaimg.cn/large/8be70f0bjw1f0efft0cnjj21kw0rnh5w.jpg)
+[]()
 
 ## vps
 [王掌柜](http://since1989.org/contact)
@@ -98,3 +98,7 @@ home WIFI
 	Arrays.asList();
 	Collections.rotate();
 	Enumeration();
+
+## rpc
+
+	[huanyong](http://my.oschina.net/huangyong/blog/361751)
