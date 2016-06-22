@@ -107,19 +107,23 @@ home WIFI
 
 	$ bin/zkServer.sh start
 
-Protobuf
+	mvn exec:java -Dexec.mainClass="com.xxx.rpc.sample.server.RpcBootstrap"
+
+### Protobuf
 
 	pojo
 
-NIO
+### NIO
 
 		Netty
 
-## nexus
+### nexus
 
-To have launchd start nexus at login:
-  ln -sfv /usr/local/opt/nexus/*.plist ~/Library/LaunchAgents
-Then to load nexus now:
-  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nexus.plist
-Or, if you don't want/need launchctl, you can just run:
-  nexus start
+	To have launchd start nexus at login:
+	  ln -sfv /usr/local/opt/nexus/*.plist ~/Library/LaunchAgents
+	Then to load nexus now:
+	  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nexus.plist
+	Or, if you don't want/need launchctl, you can just run:
+	  nexus start
+
+[私服定义](http://my.oschina.net/lujianing/blog/297128)		
