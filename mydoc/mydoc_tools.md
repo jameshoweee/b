@@ -106,3 +106,20 @@ home WIFI
 [zookeeper](http://www.tutorialspoint.com/zookeeper/zookeeper_fundamentals.htm)
 
 	$ bin/zkServer.sh start
+
+Protobuf
+
+	pojo
+
+NIO
+
+		Netty
+
+## nexus
+
+To have launchd start nexus at login:
+  ln -sfv /usr/local/opt/nexus/*.plist ~/Library/LaunchAgents
+Then to load nexus now:
+  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nexus.plist
+Or, if you don't want/need launchctl, you can just run:
+  nexus start
