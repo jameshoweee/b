@@ -18,6 +18,25 @@ loginAction
 
   本地数据库启动不需要带参数
 
+    mvn exec:java --Dexec.args="--debug true"
+
   字段不对
 
     org.sql2o.Sql2oException: Could not map context to any property.
+
+## MyBatis-Spring-Boot
+➜  MyBatis-Spring-Boot git:(master) ✗ java -jar target/mybatis-spring-boot-1.0.0-SNAPSHOT.jar    
+
+## jwt nimbus
+
+    JWSObject jwsObject =JWSObject.parse(token);
+    PayLoad payLoad = jwsObject.getPayload();
+    JWSVerifier verifier = new MACVerifier(SECRET);
+
+    if(jwsObject.verifier(verifier)){
+      JSONObject jsonObject = payLoad.toJSONObject();
+      HashMap<String,Object> test = jsonObject；
+
+      resultMap.put("isSuccess",true);
+      resultMap.put("data",jsonObject);
+    }
