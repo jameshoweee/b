@@ -40,3 +40,12 @@ loginAction
       resultMap.put("isSuccess",true);
       resultMap.put("data",jsonObject);
     }
+
+new HashMap如何理解
+
+    Map<String, Object> resultMap = new HashMap<String, Object>();
+
+
+http://www.swiftsoftwaregroup.com/provision-chef-vagrant-omnibus-plugin/
+
+sudo gitlab-ctl start

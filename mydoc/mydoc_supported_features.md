@@ -1,53 +1,160 @@
 ---
 title: Supported features
-tags: 
+tags:
   - getting_started
 keywords: "features, capabilities, scalability, multichannel output, dita, hats, comparison, benefits"
 last_updated: "November 30, 2016"
-summary: "If you're not sure whether Jekyll and this theme will support your requirements, this list provides a semi-comprehensive overview of available features."
+summary: "客户模块"
 published: true
 sidebar: mydoc_sidebar
 permalink: /mydoc_supported_features/
 ---
 
-Before you get into exploring Jekyll as a potential platform for help content, you may be wondering if it supports some basic features needed to fulfill your tech doc requirements. The following table shows what is supported in Jekyll and this theme.
+客户模块
 
-## Supported feautres
 
-Features | Supported | Notes
+## 客户工作台
+
+### 3.2.2.1.4 默认加载基本信息
+
+适合推荐产品
+
+签约产品问 万刚
+
+接触历史:大数据过来
+
+惊叹号 缺失信息的话变亮
+
+潜在客户录入和我行客户录入。
+
+加上查询按钮来判断我行和潜在客户，人员证件类型对应关系表，不要直接在人员表中查询。
+
+联系信息:
+
+    客户联系类型对应表、联系机制表
+
+    如果有不更新。如果没有不更新联系机制表。
+
+    取当前客户默认值的数据。
+
+
+关注产品:    
+
+    人员产品对应关系表。
+
+客户来源:
+
+    采集人
+
+##### 新增潜在客户:
+
+    选择转推荐人(我行客户是没有的)。没有推荐的话放在采集人所在的机构。
+
+    转推荐人 和采集人是可以看到该新增潜在客户的。潜在客户分配页面。
+
+    上传文件标识号。
+
+
+
+#### 潜在客户加入群组 功能接口需要  
+
+## 6-29
+
+管护人角色分析 | Supported | Notes
 --------|-----------|-----------
-Content re-use | Yes | Supports re-use through Liquid. You can re-use variables, snippets of code, entire pages, and more. In DITA speak, this includes conref and keyref.
-Markdown | Yes | You can author content using Markdown syntax. This is a wiki-like syntax for HTML that you can probably pick up in 10 minutes. Where Markdown falls short, you can use HTML. Where HTML falls short, you use Liquid, which is a scripting that allows you to incorporate more advanced logic.
-Responsive design | Yes | Uses Bootstrap framework for responsive design. 
-Translation | Yes | I haven't done a translation project yet (just a pilot test). Here's the basic approach: Export the HTML pages and send them to a translation agency. Then create a new project for that language and insert the translated pages. Everything will be translated.
-Collaboration |  Yes | You collaborate with Jekyll projects the same way that developers collaborate with software projects. (You don't need a CMS.) Because you're working with text file formats, you can use any version control software (Git, Mercurial, Perforce, Bitbucket, etc.) as a CMS for your files. 
-Scalability | Yes | Your site can scale to any size. It's up to you to determine how you will design the information architecture for your thousands of pages. You can choose what you display at first, second, third, fourth, and more levels, etc. Note that when your project has thousands of pages, the build time will be longer (maybe 1 minute per thousand pages?). It really depends on how many for loops you have iterating through the pages.
-Lightweight architecture | Yes | You don't need a LAMP stack (Linux, Apache, MySQL, PHP) architecture to get your site running. All of the building is done on your own machine, and you then push the static HTML files onto a server.
-Skinnability | Yes | You can skin your Jekyll site to look identical to pretty much any other site online. If you have a UX team, they can really skin and design the site using all the tools familiar to the modern designer -- JavaScript, HTML5, CSS, jQuery, and more. Jekyll is built on the modern web development stack rather than the XML stack (XSLT, XPath, XQuery). 
-Support | Yes | The community for your Jekyll site isn't so much other tech writers (as is the case with DITA) but rather the wider web development community. [Jekyll Talk](http://talk.jekyllrb.com) is a great resource. So is Stack Overflow.
-Blogging features | Yes | There is a simple blogging feature. This appears as "news" and is intended to promote news that applies across products.
-Versioning | Yes | Jekyll doesn't version your files. You upload your files to a version control system such as Github. Your files are versioned there.
-PC platform | Yes | Jekyll runs on Windows. Although the experience working on the command line is better on a Mac, Windows also works, especially now that Jekyll 3.0 dropped dependencies on Python, which wasn't available by default on Windows.
-jQuery plugins | Yes | You can use any jQuery plugins you and other JavaScript, CMS, or templating tools. However, note that if you use Ruby plugins, you can't directly host the source files on Github Pages because Github Pages doesn't allow Ruby plugins. Instead, you can just push your output to any web server. If you're not planning to use Github Pages, there are no restrictions on any plugins of any sort. Jekyll makes it super easy to integrate every kind of plugin imaginable. This theme doesn't actually use any plugins, so you can publish on Github if you want.
-Bootstrap integration | Yes | This theme is built on [Bootstrap](http://getbootstrap.com/). If you don't know what Bootstrap is, basically this means there are hundreds of pre-built components, styles, and other elements that you can simply drop into your site. For example, the responsive quality of the site comes about from the Bootstrap code base.
-Fast-loading pages| Yes | This is one of the Jekyll's strengths. Because the files are static, they loading extremely fast, approximately 0.5 seconds per page. You can't beat this for performance. (A typically database-driven site like WordPress averages about 2.5 + seconds loading time per page.) Because the pages are all static, it means they are also extremely secure. You won't get hacked like you might with a WordPress site.
-Themes | Yes | You can have different themes for different outputs. If you know CSS, theming both the web and print outputs is pretty easy.
-Open source | Yes | This theme is entirely open source. Every piece of code is open, viewable, and editable. Note that this openness comes at a price &mdash; it's easy to make changes that break the theme or otherwise cause errors.
+ | 辅管护人只能临时修改。部分信息只能只读。 | .
+ | 主管护人能看到所有信息、非管护人只能看基本信息。 | .
 
-
-## Features not available
-
-The following features are not available. 
-
-Features | Supported | Notes
+职位角色对应 | 职位 | 角色
 --------|-----------|-----------
-CMS interface | No | Unlike with WordPress, you don't log into an interface and navigate to your files. You work with text files and preview the site dynamically in your browser. Don't worry -- this is part of the simplicy that makes Jekyll awesome. I recommend using WebStorm as your text editor.
-WYSIWYG interface | No | I use WebStorm to author content, because I like working in text file formats. But you can use any Markdown editor you want (e.g., Lightpaper for Mac, Marked) to author your content.
-Different outputs | No | This theme provides a single website output that contains documentation for multiple products. Unlike previous iterations of the theme, it's not intended to support different outputs from the same content.
-Robust search | No | The search feature is a simplistic JSON search. For more robust search, you should integrate Swiftype or Algolia. However, those services aren't currently integrated into the theme.
-Standardized templates | No | You can create pages with any structure you want. The theme does not enforce topic types such as a task or concept as the DITA specification does.
-Integration with Swagger | No | You can link to a SwaggerUI output, but there is no built-in integration of SwaggerUI into this documentation theme.
-Templates for endpoints | No | Although static site generators work well with API documentation, there aren't any built-in templates specific to endpoints in this theme. You could construct your own, though.
-eBook output | No | There isn't an eBook output for the content.
+1 | 大堂经理 | 没有管护角色
+2 | 客户经理 | 没有管护角色
+3 | 个贷经理 | 没有管护角色
+4 | 理财经理 | 有管护角色
+5 | 支行行长 | 有管护角色
+6 | 财富顾问 |
+7 | 私人银行客户经理 |
+8 |  | 辅助管护人、主管护人
 
 
+客户信息缺失 采集页面 | Supported | Notes
+--------|-----------|-----------
+ 管护人  | 直接后台带过来显示 | .
+ 非管护人| 基本信息带过来不显示 | .
+ 潜在客户 |  | .
+ 我行客户|  | .
+
+
+ 人员信息入口 | Supported | Notes
+ --------|-----------|-----------
+  三角感叹号(仅仅我行客户才显示此按钮) 采集入口  | 直接后台带过来显示 | .
+  新增潜在客户(顶部) |  | .
+  <<附件7_客户分层及分配原则>> |  | .
+
+### 3.2.3 客户联络
+
+#### 3.2.3.1.4 客户联络计划
+
+  独立表无关联、自己给自己做的计划、(想和日历关联不需要做)、联络主题可以包括多个客户。
+
+  客户联络流程6-30 | Supported | Notes
+  --------|-----------|-----------
+新建客户联络计划                         |         |
+客户联络计划过了计划联络时间自动关闭        |         |
+可以没有联络计划直接写联络报告             |         |
+短信模块催一催                          |         |
+
+### 3.2.5 客户挽留  
+
+### 3.2.7 客户分配
+
+ | Supported | Notes
+--------|-----------|-----------
+ 主管护机构 |  可以跨行选择管护人| .
+
+第182 我要分配的表格不对
+
+### 3.2.8 客户申领
+
+### 6月29日
+
+ 6月29  | Supported | Notes
+--------|-----------|-----------
+ 客户归属信息 |  字段需要跟界面一样  | .
+ 评价与积分 |  字段需要跟界面一样    | .
+
+### 3.2.9 客户平移
+
+  6月29接口重要通知  | Supported | Notes
+--------|-----------|-----------
+  及时数据一定要有OA的机构号 |     | .
+  绩效方面 | 绩效指标不接。不维护绩效指标     | .
+  产品模块(数据类型长度)、客户模块(下周五) |     | 万刚
+  财富系统 | 第4个不实时 T+1  客户视图表表11格打包给对方   | .
+  买单系统 | 第6个不存在    | .
+  大堂易   | 第9、10、11、12取消接口。仅仅提供页面嵌入    | .
+  短信平台 |     | .
+  callcenter | 8月份开发    | 马爱国
+  大零售客户视图系统 ECIF |     |
+  核心系统 |     |
+  产品    |     |    
+  组织结构、人员表    |     |    
+
+### java读取字段
+
+客户联络
+
+客户视图
+
+联络策略、联络计划、联络报告、
+4+6+6
+
+  读取txt文件，格式 xxx-000000.txt
+放到固指定的表里
+第一个字段取，表里已经有数据。以tab键做分割符。
+
+石力清
+
+王楠知、朱其明
+
+### 主管户
