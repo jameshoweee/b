@@ -1,5 +1,5 @@
 ---
-title: Pages
+title: LDAP
 tags: [getting_started, formatting, content_types]
 keywords: pages, authoring, exclusion, frontmatter
 last_updated: March 20, 2016
@@ -8,7 +8,18 @@ sidebar: mydoc_sidebar
 permalink: /mydoc_pages/
 ---
 
-## Frontmatter
+## json2ldap
+
+   [Setting-up-OpenLDAP](https://github.com/IntersectAustralia/acdata/wiki/Setting-up-OpenLDAP)
+   
+   ➜  ~ slappasswd -h {SSHA}
+   New password:
+   Re-enter new password:
+   {SSHA}C5huyAldP08I1j6oUv22mrCkY2P/1Jb2
+   ➜  ~ ldapsearch -D 'cn=admin,dc=localhost' -W -x -b 'o=unsw,dc=localhost'
+   
+   ldap.connect { "host" : "localhost", "port" : 10389 } {"CID":"45d0677d-a336-463b-ad99-c82137d03a00"}
+   
 Make sure each page has frontmatter at the top like this:
 
 {% raw %}

@@ -80,7 +80,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Pages
+    - title: LDAP
       url: /mydoc_pages/
       output: web, pdf
 

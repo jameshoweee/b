@@ -1,5 +1,5 @@
 ---
-title: Install Jekyll on Mac
+title: Mac envirement
 tags: [getting_started, troubleshooting]
 keywords:
 summary: "Installation of Jekyll on Mac is usually less problematic than on Windows. However, you may run into permissions issues with Ruby that you must overcome. You should also use Bundler to be sure that you have all the required gems and other utilities on your computer to make the project run. "
@@ -7,7 +7,13 @@ sidebar: mydoc_sidebar
 permalink: /mydoc_install_jekyll_on_mac/
 ---
 
-## Ruby and RubyGems
+## envirement jvm-nexus-tomcat-ldap
+
+    /Library/Java/JavaVirtualMachines        
+    nexus start         
+    /usr/local/opt/tomcat/bin/catalina start
+    /usr/local/opt/tomcat/libexec/webapps
+    sudo /usr/libexec/slapd
 
 Ruby and [RubyGems](https://rubygems.org/pages/download) are usually installed by default on Macs. Open your Terminal and type `which ruby` and  `which gem` to confirm that you have Ruby and Rubygems. You should get a response indicating the location of Ruby and Rubygems.
  
