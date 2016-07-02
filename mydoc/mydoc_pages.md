@@ -22,6 +22,7 @@ permalink: /mydoc_pages/
 
    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
    
+    ➜  ~ cd Downloads/Json2Ldap-3.0.6
     java -jar jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/
     
     // get connect id(CID)
