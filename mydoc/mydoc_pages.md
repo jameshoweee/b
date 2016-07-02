@@ -20,7 +20,7 @@ permalink: /mydoc_pages/
    
 ### quickstart
 
-    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
+   [quickstart](http://connect2id.com/products/json2ldap/quick-start)
    
     // test connect
     ldap.connect { "host" : "localhost", "port" : 10389 } 
