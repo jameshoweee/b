@@ -22,11 +22,12 @@ permalink: /mydoc_pages/
 
    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
    
-    // test connect
-    ldap.connect { "host" : "localhost", "port" : 10389 } 
-    ldap.simpleBind { "CID" :"nbzY9zG_LssOzD9lc4vJgeA7BkDn1rs6TIeDXQF-0JM", 
-                                    "DN" : "uid=alice,ou=people,dc=wondlerland,dc=net", 
-                                    "password" : "secret" }
+    // get connect id(CID)
+    ldap.connect { "host" : "192.168.1.107", "port" : 389 }
+    
+    // login in 
+    ldap.simpleBind { "CID" : "eUCSwFvDaKVM63wCJCEaNLG-BA2x_GHhSFdsDbcvJa8", "DN" : "cn=Manager,dc=maxcrc,dc=com", "password" : "secrect" } 
+    
    
    [ldap.md](https://github.com/jnuc093/demo/blob/master/blog/ldap.md)
    
