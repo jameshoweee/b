@@ -18,7 +18,15 @@ permalink: /mydoc_pages/
    {SSHA}C5huyAldP08I1j6oUv22mrCkY2P/1Jb2
    ➜  ~ ldapsearch -D 'cn=admin,dc=localhost' -W -x -b 'o=unsw,dc=localhost'
    
-   ldap.connect { "host" : "localhost", "port" : 10389 } {"CID":"45d0677d-a336-463b-ad99-c82137d03a00"}
+### quickstart
+
+    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
+   
+    // test connect
+    ldap.connect { "host" : "localhost", "port" : 10389 } 
+    ldap.simpleBind { "CID" :"nbzY9zG_LssOzD9lc4vJgeA7BkDn1rs6TIeDXQF-0JM", 
+                                    "DN" : "uid=alice,ou=people,dc=wondlerland,dc=net", 
+                                    "password" : "secret" }
    
    [ldap.md](https://github.com/jnuc093/demo/blob/master/blog/ldap.md)
    
