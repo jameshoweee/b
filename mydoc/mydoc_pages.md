@@ -22,11 +22,15 @@ permalink: /mydoc_pages/
 
    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
    
+   java -jar ~/Downloads/Json2Ldap-3.0.6/jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/
+   
     // get connect id(CID)
     ldap.connect { "host" : "192.168.1.107", "port" : 389 }
     
     // login in 
-    ldap.simpleBind { "CID" : "eUCSwFvDaKVM63wCJCEaNLG-BA2x_GHhSFdsDbcvJa8", "DN" : "cn=Manager,dc=maxcrc,dc=com", "password" : "secrect" } 
+    ldap.simpleBind { "CID" : "9E6r9ISeVjkCqHXuOsseeDjV4li2WCwodcn_Tc9FHBg", "DN" : "cn=Manager,dc=maxcrc,dc=com", "password" : "secret" }
+     
+    ldap.getEntry { "CID" : "9E6r9ISeVjkCqHXuOsseeDjV4li2WCwodcn_Tc9FHBg", "DN" : "ou=People,dc=maxcrc,dc=com","description" : "json2rpc"}  
     
    
    [ldap.md](https://github.com/jnuc093/demo/blob/master/blog/ldap.md)
