@@ -22,8 +22,8 @@ permalink: /mydoc_pages/
 
    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
    
-   java -jar ~/Downloads/Json2Ldap-3.0.6/jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/
-   
+    java -jar jsonrpc2-shell.jar --auto-id 0 http://localhost:8080/json2ldap/
+    
     // get connect id(CID)
     ldap.connect { "host" : "192.168.1.107", "port" : 389 }
     
