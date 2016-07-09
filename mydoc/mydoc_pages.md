@@ -18,6 +18,8 @@ permalink: /mydoc_pages/
    {SSHA}C5huyAldP08I1j6oUv22mrCkY2P/1Jb2
    ➜  ~ ldapsearch -D 'cn=admin,dc=localhost' -W -x -b 'o=unsw,dc=localhost'
    
+   slaptest -u
+   
 ### quickstart
 
    [quickstart](http://connect2id.com/products/json2ldap/quick-start)
