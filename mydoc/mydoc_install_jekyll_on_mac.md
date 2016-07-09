@@ -21,10 +21,10 @@ permalink: /mydoc_install_jekyll_on_mac/
     
 ## GitLab
 
-[GitLab install on MAC](https://github.com/WebEntity/Installation-guide-for-GitLab-on-OS-X)    
+[GitLab install on MAC](https://github.com/WebEntity/Installation-guide-for-GitLab-on-OS-X)
+    
     //osx 启动 ldap
     osx sudo /usr/libexec/slapd
-    
     LastUserID=$(dscl . -list /Users UniqueID | awk '{print $2}' | sort -n | tail -1)
     NextUserID=$((LastUserID + 1))
     sudo dscl . create /Users/git
