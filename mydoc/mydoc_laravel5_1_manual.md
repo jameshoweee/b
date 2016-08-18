@@ -27,6 +27,10 @@ permalink: /mydoc_laravel5_1_manual/
 
 	subl 	~/.homestead-56/Homestead.yaml
 
+	➜  ~ cd Homestead56
+
+	➜  Homestead56 git:(master) ✗ vagrant up
+
 ## 常用操作
 
 	php artisan migrate
@@ -69,7 +73,7 @@ github中搜 dingo
 	$ php artisan db:seed
 	$ php artisan key:generate			//重要
 	👍 3  
-	
+
 #### laravel视频
 
 [基础教程](https://laravist.com/series/laravel-5-basic)
@@ -86,4 +90,10 @@ github中搜 dingo
 
 ### laravel-api-boilerplate-jwt
 
-    artisan api:route       
+    artisan api:route    
+
+### spark
+
+[add-shell-path-osx](https://coolestguidesontheplanet.com/add-shell-path-osx/)
+
+    export PATH="/Volumes/Transcend/github/spark-installer:$PATH"

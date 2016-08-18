@@ -48,6 +48,9 @@ keep src/g4server.properties in the git repository but ignore future changes to 
 If you wanna start tracking changes again run the following command:
 
 	git update-index --no-assume-unchanged src/g4server.properties
+	
+### git clone --depth 1 -v 
+		
 
 ## sublime3
 
