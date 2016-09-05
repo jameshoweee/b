@@ -21,7 +21,7 @@ permalink: /mydoc_sidebar_navigation/
 | Ctrl + O | Allows you to find a file by searching for its name. |
 | Ctrl+Shift+R  | Allows you to find a file by searching for its name. |
 | Ctrl+1  |  |
-| Alt+Com+Down  |  |  copy current line
+| Alt+Com+Down  | copy current line |  
 
 ## oracle
 
