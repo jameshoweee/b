@@ -12,9 +12,20 @@ permalink: /mydoc_sidebar_navigation/
 
 [Party+Relationship](https://cwiki.apache.org/confluence/display/OFBIZ/Party+Relationship)
 
+## eclipse shortcuts
+
 |Command | Shortcuts |
 |-------|--------|
 | Ctrl +F7 | Allows you to find a file by searching for its name. |
 | Ctrl + E | Find in whole project. (WebStorm uses the term "Find in path".) |
 | Ctrl + O | Allows you to find a file by searching for its name. |
 | Ctrl+Shift+R  | Allows you to find a file by searching for its name. |
+| Ctrl+1  |  |
+
+## oracle
+
+|Command | Shortcuts |
+|-------|--------|
+| Ctrl +F7 | Allows you to find a file by searching for its name. |
+| Ctrl + E | Find in whole project. (WebStorm uses the term "Find in path".) |
+

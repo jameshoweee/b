@@ -108,7 +108,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Sidebar navigation
+    - title: Ofbiz
       url: /mydoc_sidebar_navigation/
       output: web, pdf
 
