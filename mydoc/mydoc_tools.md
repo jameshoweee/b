@@ -130,3 +130,15 @@ home WIFI
 	  nexus start
 
 [私服定义](http://my.oschina.net/lujianing/blog/297128)		
+
+[how-to-add-remote-repository-in-maven-pom-xml](https://www.mkyong.com/maven/how-to-add-remote-repository-in-maven-pom-xml/)
+
+    <project ...>
+    <repositories>
+        <repository>
+          <id>java.net</id>
+          <url>https://maven.java.net/content/repositories/public/</url>
+        </repository>
+     </repositories>
+    </project>
+
